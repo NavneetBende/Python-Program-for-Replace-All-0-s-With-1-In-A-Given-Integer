@@ -1,0 +1,6 @@
+#take inputs
+Val = int(input('Enter number:'))
+#change type to string
+Val = str(Val)
+Replaced = Val.replace('0','1')
+print("Converted number is:" + Replaced)
